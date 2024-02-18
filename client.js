@@ -10,7 +10,7 @@ const app = Vue.createApp({
     <div v-for="i in boardSize" :key="i" :disabled="winner">
       <div class="row">
         <div v-for="j in boardSize" :key="j">
-              <input type="text" id="b1" :value="itemValue(i-1, j-1)"
+              <input type="text" id="b1" :value="itemValue(i-1, j-1)" :disabled="itemValue(i-1, j-1) || winner"
                     class="cell" @click="updateState(i-1, j-1, currentPlayer)"
                     readonly>
         </div>
