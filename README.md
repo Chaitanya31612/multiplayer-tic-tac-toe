@@ -22,8 +22,9 @@ Follow these steps to get the Tic Tac Toe game up and running on your local mach
 
 1. Clone this repository:
 
-   ```bash
-   git clone https://github.com/Chaitanya31612/multiplayer-tic-tac-toe.git
+```bash
+git clone https://github.com/Chaitanya31612/multiplayer-tic-tac-toe.git
+```
 
 2. Navigate to the project directory:
 
