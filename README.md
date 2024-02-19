@@ -1,4 +1,4 @@
-[Screencast from 18-02-24 09:41:04 PM IST.webm](https://github.com/Chaitanya31612/multiplayer-tic-tac-toe/assets/54992097/acc71078-1507-4372-9cb2-2cde276ee2d0)# Multiplayer Tic Tac Toe Game
+# Multiplayer Tic Tac Toe Game
 
 This is a simple multiplayer Tic Tac Toe game built using Node.js, Vue.js, and WebSockets with the Socket.io package. It allows multiple users to play together in real-time.
 
