@@ -132,15 +132,3 @@ io.on("connection", (socket) => {
     console.log("a user disconnected", socket.id);
   });
 });
-
-io.on("update game", (data) => {
-  console.log("update game", data);
-  // game.updateState(data.player, data.x, data.y);
-  // io.emit("update game client", game);
-});
-
-// io.on("something", (data) => {
-//   console.log("something", data);
-// })
-
-

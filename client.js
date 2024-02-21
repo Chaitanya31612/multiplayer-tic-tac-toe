@@ -37,6 +37,7 @@ const app = Vue.createApp({
       boardSize.value = data.boardSize;
       currentPlayer.value = data.currentPlayer;
       boardState.value = data.boardState;
+      winner.value = null;
     });
 
     socket.on("update game client", (data) => {
@@ -45,6 +46,7 @@ const app = Vue.createApp({
       boardSize.value = data.boardSize;
       currentPlayer.value = data.currentPlayer;
       boardState.value = data.boardState;
+      winner.value = data.winner;
     })
 
     socket.on("game over", (data) => {
